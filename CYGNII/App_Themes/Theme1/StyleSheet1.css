@@ -1,0 +1,124 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body
+{
+    overflow: hidden;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+section .color
+{
+    position: relative;
+    filter:blur(200px);
+}
+
+
+section .color:nth-child(1)
+{
+top:-350px;
+width: 600px;
+height: 600px;
+background:white;
+}
+
+
+﻿
+
+section .color:nth-child(2) {
+    bottom: -150px;
+    left: 100px;
+    width: 800px;
+    height: 800px;
+    background: white;
+}
+section .color:nth-child(3) {
+    bottom: 50px;
+    left: -100px;
+    width: 600px;
+    height: 600px;
+    background: white;
+}
+
+.box {
+    position: center;
+}
+.container
+{
+    position: relative;
+    width: 1000px;
+    min-height: 1100px;
+    background: rgba(255,255,255,0.1);
+}
+
+.box {
+    position: absolute;
+}
+.container {
+/*    change container size  */ 
+    position: relative;
+    width: 1400px;
+    min-height: 625px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.5);
+}
+
+﻿
+
+.form {
+    position: relative;
+    width: 75%;
+    height: 75%;
+    padding: 100px;
+}
+.form h2 {
+    position: relative;
+    color: black;
+    font-size: 25px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+}
+﻿
+
+.form h2::before {
+    content: '';
+    position: absolute;
+    left: 0px;
+    bottom: -10px;
+    width: 80px;
+    height: 4px;
+    background: black;
+}
+﻿
+
+.form .inputbox {
+    width: 450px;
+    margin-top: 20px;
+}
+.style {
+    width: 280px;
+    background: rgba(255,255,255,0.2);
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    color: black;
+    border-radius: 5px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    box-shadow: 0 25px 45px rgba(0,0,0,0.1);
+    border: 1px solid rgba(255,255,255,0.5);
+}
